@@ -1,0 +1,275 @@
+:root {
+    --main-color: #ffa807;
+    --second-color: #65b1cd;
+    --third-color: #424242;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0%;
+    font-family: 'open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* start of header */
+header {}
+
+header .containr {
+    background-color: var(--third-color);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 13px;
+    text-align: center;
+
+}
+
+header .logo {
+    display: flex;
+    color: var(--main-color);
+}
+
+header .logo h2 {
+    margin: 0px;
+    font-weight: normal;
+    color: var(--main-color);
+
+}
+
+header .logo i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul li a {
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* end of header */
+/* start of landing  */
+
+.landing .containr {
+    background-image: url(../assets/hiker.jpg);
+    background-size: cover;
+    height: calc(100vh - 56px);
+    color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+}
+
+.landing .containr .landing-content h4 {
+    margin: 0px;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.landing .containr .landing-content h1 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 61px;
+}
+
+.landing button {
+    background-color: var(--second-color);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* end of landing */
+/* start of process */
+.process {
+    /* padding-top: 60px; */
+    height: fit-content;
+    padding-top: 40px;
+    /* padding-bottom: 10px; */
+
+}
+
+.process h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+    color: var(--third-color);
+}
+
+.process .container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    justify-content: space-around;
+    gap: 40px;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.process .container .process-steps {
+    text-align: center;
+    color: var(--third-color);
+}
+
+.process .container .process-steps i {
+    font-size: 150px;
+
+}
+
+.process .container .process-steps p {
+    color: #42424284;
+}
+
+/* end of process */
+/* <!-- start of experiance --> */
+.experiance {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: var(--third-color);
+}
+
+.experiance .container h2 {
+    text-align: center;
+}
+
+.experiance .container .studio {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.experiance .container .studio .studio-img {
+    text-align: center;
+    border: 1px solid #4242421e;
+}
+
+.experiance .container .studio .studio-img img {
+    width: 500px;
+    height: 350px;
+}
+
+.experiance .container .studio .studio-img p {
+    color: #42424284;
+
+}
+
+/* <!-- end of experiance --> */
+/* start of quote */
+.quote .head {
+    text-align: center;
+    color: var(--third-color);
+    padding-top: 40px;
+
+}
+
+.quote .container {
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 40px;
+
+}
+
+.quote .container .quote-content {
+    text-align: center;
+
+}
+
+.quote .container .quote-content i {
+    font-size: 50px;
+}
+
+.quote .container .quote-content p {
+    color: #424242;
+}
+
+/* end of quote */
+/* start of gallary */
+.gallary .container {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gallary .container img {
+    width: 450px;
+    height: 400px;
+}
+
+/* end of gallary */
+/* start of single quote */
+.single-quote {
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.single-quote i{
+    font-size: 50px;
+}
+/* end of single quote */
+/* start of footer */
+.footer{
+    background-color: var(--third-color);
+    width: 100%;
+    height: 180px;
+}
+.footer .container{
+    display: grid;
+    place-items: center;
+    padding-top: 30px;
+}
+.footer .container p{
+color: rgb(175, 174, 174);
+
+}
+.footer .container .input{
+    display: flex;
+
+}
+.footer .container .input input {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+padding: 10px;
+}
+.footer .container .input button{
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+background-color: #818181;
+color: white;
+}
+
+
+/* end of footer */
